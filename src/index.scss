@@ -1,0 +1,17 @@
+//--------------- FONTS -------------------
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+//--------------- RESET -------------------
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}

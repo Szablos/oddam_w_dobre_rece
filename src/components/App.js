@@ -10,10 +10,12 @@ const App = () => {
   return (
     <>
       <Header />
-      <YellowBar />
-      <FourSteps />
-      <About />
-      <FundationsList />
+      <main>
+        <YellowBar />
+        <FourSteps />
+        <About />
+        <FundationsList />
+      </main>
       <Contact />
     </>
   )

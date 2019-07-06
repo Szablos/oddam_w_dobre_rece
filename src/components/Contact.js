@@ -1,7 +1,12 @@
 import React from 'react';
+import '../scss/contact.scss';
 
 const Contact = () => {
-  return null;
+  return (
+    <footer id="contact">
+
+    </footer>
+  )
 }
 
 export default Contact;

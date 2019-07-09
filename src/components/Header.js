@@ -8,7 +8,7 @@ const SignInUpBtns = () => {
   return (
     <div className="signInUp_btns">
       <button className="signIn">Zaloguj</button>
-      <button className="signup">Załóz konto</button>
+      <button className="signUp">Załóz konto</button>
     </div>
   )
 }
@@ -80,10 +80,12 @@ const Header = () => {
       <Navigation />
       <div className="information">
         <p>Zacznij pomagać!</p>
-        <p>Oddaj rzeczy w zaufane ręce</p>
+        <p>Oddaj niechciane rzeczy w zaufane ręce</p>
         <img src={decoration} alt="" />
-        <button className="give_away_stuff">Oddaj rzeczy</button>
-        <button className="organize_collection">Zorganizuj zbiórkę</button>
+        <div>
+          <button className="give_away_stuff">Oddaj<p>rzeczy</p></button>
+          <button className="organize_collection">Zorganizuj zbiórkę</button>
+        </div>
       </div>
     </header>
   )

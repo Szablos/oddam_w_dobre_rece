@@ -1,5 +1,50 @@
 section {
   width: 100%;
   height: 100vh;
-  border: 1px solid black;
+}
+
+#four_steps {
+  height: 568px;
+  background-color: #ffffff;
+
+  .four_steps_container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+
+    p {
+      color: #4b4b4b;
+      font-size: 2.8rem;
+      font-weight: 300;
+    }
+
+    img {
+      width: 250px;
+      height: 30px;
+      margin-top: 15px;
+    }
+
+    div {
+      width: 800px;
+      height: 250px;
+      margin: 0 auto;
+      background-color: #e2e2e2;
+      margin-top: 15px;
+    }
+
+    button {
+      margin-top: 35px;
+      background: none;
+      text-align: center;
+      width: 230px;
+      height: 100px;
+      color: #4b4b4b;
+      font-size: 2.7rem;
+      outline: none;
+      text-transform: uppercase;
+      border: 1px solid #8a8a8a;
+      cursor: pointer;
+    }
+  }
 }

@@ -20,17 +20,45 @@ section {
     }
 
     img {
-      width: 250px;
+      width: 220px;
       height: 30px;
       margin-top: 15px;
     }
 
-    div {
+    .icons-container {
+      display: flex;
+      justify-content: space-around;
       width: 800px;
       height: 250px;
       margin: 0 auto;
       background-color: #e2e2e2;
       margin-top: 15px;
+
+      .icon {
+        width: 110px;
+
+        .fas {
+          color: #5a5a5a;
+          font-size: 50px;
+          padding-top: 40px;
+        }
+
+        p {
+          font-size: 1.3rem;
+          color: #757575;
+          margin-top: 15px;
+
+          &:last-child {
+            font-size: 1.1rem;
+          }
+        }
+
+        hr {
+          width: 70%;
+          margin: 0 auto;
+          margin-top: 15px;
+        }
+      }
     }
 
     button {

@@ -8,7 +8,7 @@ const SignInUpBtns = () => {
   return (
     <div className="signInUp_btns">
       <button className="signIn">Zaloguj</button>
-      <button className="signup">Załóz konto</button>
+      <button className="signUp">Załóz konto</button>
     </div>
   )
 }
@@ -16,8 +16,8 @@ const SignInUpBtns = () => {
 const Navigation = () => {
   return (
     <nav className="navigation">
-      <div className="nav_list">
-        <Link
+      <ul className="nav_list">
+        <li><Link
           activeClass="active"
           to="start"
           spy={true}
@@ -26,8 +26,8 @@ const Navigation = () => {
           duration={1000}
         >
           Start
-        </Link>
-        <Link
+        </Link></li>
+        <li><Link
           activeClass="active"
           to="four_steps"
           spy={true}
@@ -36,8 +36,8 @@ const Navigation = () => {
           duration={1000}
         >
           O co chodzi?
-        </Link>
-        <Link
+        </Link></li>
+        <li><Link
           activeClass="active"
           to="about"
           spy={true}
@@ -46,8 +46,8 @@ const Navigation = () => {
           duration={1000}
         >
           O nas
-        </Link>
-        <Link
+        </Link></li>
+        <li><Link
           activeClass="active"
           to="fundations"
           spy={true}
@@ -56,8 +56,8 @@ const Navigation = () => {
           duration={1000}
         >
           Fundacje i organizaje
-        </Link>
-        <Link
+        </Link></li>
+        <li><Link
           activeClass="active"
           to="contact"
           spy={true}
@@ -66,8 +66,8 @@ const Navigation = () => {
           duration={1000}
         >
           Kontakt
-        </Link>
-      </div>
+        </Link></li>
+      </ul>
     </nav>
   )
 }
@@ -80,10 +80,12 @@ const Header = () => {
       <Navigation />
       <div className="information">
         <p>Zacznij pomagać!</p>
-        <p>Oddaj rzeczy w zaufane ręce</p>
+        <p>Oddaj niechciane rzeczy w zaufane ręce</p>
         <img src={decoration} alt="" />
-        <button className="give_away_stuff">Oddaj rzeczy</button>
-        <button className="organize_collection">Zorganizuj zbiórkę</button>
+        <div>
+          <button className="give_away_stuff">Oddaj<p>rzeczy</p></button>
+          <button className="organize_collection">Zorganizuj zbiórkę</button>
+        </div>
       </div>
     </header>
   )
